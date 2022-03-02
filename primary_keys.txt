@@ -1,0 +1,7 @@
+publisher_uid
+book_ISBN
+author_uid
+editor_uid
+customer_uid
+order_uid
+contract_uid

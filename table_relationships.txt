@@ -1,0 +1,9 @@
+book-author: N:N (use junction table to decompose into two 1:N)
+book-editor: N:N (use junction table to decompose into two 1:N)
+book-order: N:N (use junction table to decompose into two 1:N)
+book-contract: 1:N
+book-publisher: N:1
+editor-publisher: N:1
+contract-publisher: N:1
+contract-author: N:1
+order-customer: N:1

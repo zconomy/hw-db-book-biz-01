@@ -1,0 +1,36 @@
+/*Entity*/
+publisher
+book
+author
+editor
+customer
+order
+contract
+
+/*Property*/
+publisher_uid
+publisher_name
+many-to-many relationship: publisher_contract
+book_ISBN
+many-to-many relationship: book_authoer
+book_title
+book_genre
+book_publisher
+many-to-many relationship: book_editor
+author_uid
+author_firstName
+author_lastName
+editor_uid
+editor_firstName
+editor_lastName
+customer_uid
+customer_firstName
+customer_lastName
+order_uid
+order_date
+order_customer
+contract_uid
+contract_book
+contract_author
+contract_publisher
+contract_royalty
