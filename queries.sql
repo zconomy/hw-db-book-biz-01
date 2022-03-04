@@ -80,3 +80,5 @@ SELECT `customer`.`customer_uid`,`firstName`,`lastName`, COUNT(DISTINCT(`order_u
 FROM    `customer`
         JOIN `order` ON `customer`.`customer_uid` = `order`.`customer_uid`
 GROUP BY `customer`.`customer_uid`;
+
+/* end of file */
